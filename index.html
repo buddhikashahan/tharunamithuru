@@ -1,108 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <title>ගල් අමුණ හීන්දළුක්ඉන්න තරුණ මිතුරු සංසඳය</title>
 </head>
+
 <body>
     <header>
-    <nav>
-        <div class="logo">
-            <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
-        </div>
-        <ul class="hide">
-            <div class="icon cancel-btn">
-                <i class="fas fa-times"></i>
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="Logo"></a>
             </div>
-            <li><a href="" class="active">මුල් පිටුව</a></li>
-            <li><a href="">අප ගැන</a></li>
-            <li><a href="">සේවාවන්</a></li>
-            <li><a href="">විමසීම්</a></li>
-            <li><a href="">ලියාපදිංචි වන්න</a></li>
-        </ul>
-        <div class="icon menu-btn">
-            <i class="fas fa-bars"></i>
-        </div>
-    </div>
-</nav>
-</header>
-<div class="banner"></div>
-<script>
-    const navbar = document.querySelector("nav ul");
-    const menuBtn = document.querySelector(".menu-btn");
-    const cancelBtn = document.querySelector(".cancel-btn");
-    menuBtn.onclick = () => {
-        navbar.classList.add("show");
-        navbar.classList.remove("hide");
-        menuBtn.classList.add("hide-icon");
-    }
-    cancelBtn.onclick = () => {
-        navbar.classList.remove("show");
-        navbar.classList.add("hide");
-        menuBtn.classList.remove("hide-icon");
-    }
-</script>
-<div class="container">
-    <div class="home">
-    <h1><span>ගල් අමුණ - හීන්දළුක්ඉන්න තරුණ මිතුරු සංසඳය</span> වෙබ් අඩවියට සාදරයෙන් පිළිගනිමු!</h1>
-</head>
-  <div class="card">
-  
-    <div class="card_part card_part-one">
-    </div>
-    
-     <!-- Photo 2 -->
-    <div class="card_part card_part-two">
-  
-    </div>
-  
-    <!-- Photo 3 -->
-    <div class="card_part card_part-three">
-    </div>
-  
-    <!-- Photo 4 -->
-    <div class="card_part card_part-four">
-    </div>
-  
-  </div>
+            <ul class="hide">
+                <div class="icon cancel-btn">
+                    <i class="fas fa-times"></i>
+                </div>
+                <li><a href="" class="active">මුල් පිටුව</a></li>
+                <li><a href="">අප ගැන</a></li>
+                <li><a href="">සේවාවන්</a></li>
+                <li><a href="index.html#contact">විමසීම්</a></li>
+                <li><a href="">ලියාපදිංචි වන්න</a></li>
+            </ul>
+            <div class="icon menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <div class="banner"></div>
+    <script>
+        const navbar = document.querySelector("nav ul");
+        const menuBtn = document.querySelector(".menu-btn");
+        const cancelBtn = document.querySelector(".cancel-btn");
+        menuBtn.onclick = () => {
+            navbar.classList.add("show");
+            navbar.classList.remove("hide");
+            menuBtn.classList.add("hide-icon");
+        }
+        cancelBtn.onclick = () => {
+            navbar.classList.remove("show");
+            navbar.classList.add("hide");
+            menuBtn.classList.remove("hide-icon");
+        }
+    </script>
+    <div class="container">
+        <div class="home">
+            <h1><span>ගල් අමුණ - හීන්දළුක්ඉන්න තරුණ මිතුරු සංසඳය</span> වෙබ් අඩවියට සාදරයෙන් පිළිගනිමු!</h1>
+            </head>
+            <div class="card">
 
-    <h3>රටට දැයට සේවය කිරීමට අපි බැඳී සිටින්නෙමු.</h3>
-    </div>
-    <div class="div">
-        <h2>අප ගැන</h2>
+                <div class="card_part card_part-one">
+                </div>
 
-    <h3>-අපගේ දැක්ම-</h3>
-    <p>එක්සත්ව එක්සිත්ව එකාමෙන් ඉදිරියට</p>
-    <h3>-අපගේ මෙහෙවර-</h3>
-    <p>අභියෝග හමුවේ නොසැලී, කුසලතා සහ යහපත් ආකල්පයන්ගෙන් පිරිපුන්ව, යදම් සේ පුරුකෙන් පුරුක සවිබල ගැන්වී රටට දැයට සේවය කිරීම අපගේ මෙහෙවරයි.</p>
-    <h2>නිලධාරී මඩුල්ල</h2>
-        <div class="admins">
-            <div class="contact-card">
-                <div class="img">
-                    <img src="images/user.png" alt="">
+                <!-- Photo 2 -->
+                <div class="card_part card_part-two">
+
                 </div>
-                <h5>සුපුන් පුෂ්පකුමාර</h5>
-                <h6>සභාපති</h6>
+
+                <!-- Photo 3 -->
+                <div class="card_part card_part-three">
+                </div>
+
+                <!-- Photo 4 -->
+                <div class="card_part card_part-four">
+                </div>
+
             </div>
-             <div class="contact-card">
-                <div class="img">
-                    <img src="images/user.png" alt="">
+
+            <h3>රටට දැයට සේවය කිරීමට අපි බැඳී සිටින්නෙමු.</h3>
+            <h1>දැනට සාමාජිකයින් <span> 17 </span>ක් අප හා එක් වී සිටියි.</h1>
+            <h3><a href="">සාමාජික ලැයිස්තුව</a></h3>
+            <table class="member-list">
+                <thead>
+                    <tr>
+                        <th>අංකය</th>
+                        <th>නම</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>01</td>
+                        <td>කොඩිතුවක්කු ආරච්චිගේ බුද්ධික ෂහන් ජයමාල්</td>
+                    </tr>
+                    <tr>
+                        <td>02</td>
+                        <td>වන්නි ආරච්චිගේ සුපුන් පුෂ්පකුමාර</td>
+                    </tr>
+                    <tr>
+                        <td>03</td>
+                        <td>ඩී මනීෂ කල්හාර</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="div">
+            <h2>අප ගැන</h2>
+
+            <h3>-අපගේ දැක්ම-</h3>
+            <p>එක්සත්ව එක්සිත්ව එකාමෙන් ඉදිරියට</p>
+            <h3>-අපගේ මෙහෙවර-</h3>
+            <p>අභියෝග හමුවේ නොසැලී, කුසලතා සහ යහපත් ආකල්පයන්ගෙන් පිරිපුන්ව, යදම් සේ පුරුකෙන් පුරුක සවිබල ගැන්වී රටට දැයට
+                සේවය කිරීම අපගේ මෙහෙවරයි.</p>
+            <h2>නිලධාරී මඩුල්ල</h2>
+            <div class="admins">
+                <div class="contact-card">
+                    <div class="img">
+                        <img src="images/sabapathi.JPG" alt="">
+                    </div>
+                    <div class="border">
+                        <i class="fa-brands fa-square-whatsapp" style="color: #08f744;"></i>
+                        <i class="fa-brands fa-square-facebook" style="color: #0091ff;"></i>
+                    </div>
+                    <h5>සුපුන් පුෂ්පකුමාර</h5>
+                    <h6>සභාපති</h6>
+
                 </div>
-                <h5>බුද්ධික ෂහන්</h5>
-                <h6>ලේකම්</h6>
-            </div>
-             <div class="contact-card">
-                <div class="img">
-                    <img src="images/user.png" alt="">
+                <div class="contact-card">
+                    <div class="img">
+                        <img src="images/lekam.png" alt="">
+                    </div>
+                    <div class="border">
+                        <i class="fa-brands fa-square-whatsapp" style="color: #08f744;"></i>
+                        <i class="fa-brands fa-square-facebook" style="color: #0091ff;"></i>
+                    </div>
+                    <h5>බුද්ධික ෂහන්</h5>
+                    <h6>ලේකම්</h6>
+
                 </div>
-                <h5>මනීෂ කල්හාර</h5>
-                <h6>භාණ්ඩාගාරික</h6>
+                <div class="contact-card">
+                    <div class="img">
+                        <img src="images/bandagarika.JPG" alt="">
+                    </div>
+                    <div class="border">
+                        <i class="fa-brands fa-square-whatsapp" style="color: #08f744;"></i>
+                        <i class="fa-brands fa-square-facebook" style="color: #0091ff;"></i>
+                    </div>
+                    <h5>මනීෂ කල්හාර</h5>
+                    <h6>භාණ්ඩාගාරික</h6>
+
+                </div>
             </div>
         </div>
+        <section id="contact">
+        <div class="div">
+            <h2>අපව සම්බන්ධ කරගන්න</h2>
+
+                <div class="item fb">
+                    <h4><span>Facebook</span> පිටුව</h4>
+                    <a href="#"><i class="fa-brands fa-facebook"></i> Facebook</a>
+                </div>
+                <div class="item yt">
+                    <h4><span>Youtube</span> නාලිකාව</h4>
+                    <a href="#"><i class="fa-brands fa-youtube"></i> Youtube</a>
+                </div>
+                <div class="item wp">
+                    <h4><span>WhatsApp</span> සමූහය</h4>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+                </div>
+                <div class="item cl">
+                    <h4>අමතන්න</h4>
+                    <a href="#"><i class="fa-solid fa-phone"></i> 076-5415729</a>
+                </div>
+
+        </div>
+        </section>
     </div>
-</div>
 </body>
+
 </html>
